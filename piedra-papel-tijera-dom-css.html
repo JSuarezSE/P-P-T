@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Piedra papel tijera
+    </title>
+    <link rel="stylesheet" href="styles/piedra-papel-tijera.css">
+  </head>
+  <Body>
+    <div id="header">
+      <p class="titulo">Piedra Papel Tijera</p>
+    </div>
+    <div id="contenido">
+        <button class="mover-boton js-piedra">
+        <img src="images/piedra.png" class="move-icon"></button>
+
+        <button class="mover-boton js-papel" > <img src="images/papel.png" class="move-icon"></button>
+
+        <button class="mover-boton js-tijera"> <img src="images/tijera.png" class="move-icon"></button>
+    </div>
+      <p class="js-solucion solucion"></p>
+      <p class="js-jugada"></p>
+      <p class="js-resultado resultado"></p>
+
+    <button onclick="
+       tablaResultado.empates=0;
+       tablaResultado.ganaste=0;
+       tablaResultado.perdiste=0;
+      localStorage.removeItem('resultado')
+       actualizarResultado();
+      " class="resetear-button">Resetear resultados</button>
+    <button class="jugada-auto" onclick="
+      autoplay();
+    ">Jugada automática</button>
+    <script src="scripts/piedra-papel-tijera.js"> </script>
+  </Body>
+</html>

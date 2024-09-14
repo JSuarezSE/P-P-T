@@ -1,0 +1,91 @@
+body{
+  background-color: #202027;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+}
+#header{
+  border: 1px solid transparent;
+  background-color: #2C2C36;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 5px #105BBE;
+}
+#contenido{
+  padding: 10px;
+  border: 2px solid #F29F05;
+  border-radius: 20px;
+  width: fit-content;;
+  margin:0px auto;
+  background-color: #2C2C36;
+  box-shadow: 0 0 10px #F29F05;
+}
+
+.titulo{
+  font-size: 30px;
+  font-weight: bold;
+}
+.move-icon{
+  height: 50px;
+}
+
+.icon-Ganaste{
+  padding: 15px;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 3px solid green;
+  border-radius: 70px;
+  box-shadow: 0 0 5px #4bf00f;
+
+}
+.icon-Perdiste{
+  padding: 15px;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 3px solid red;
+  border-radius: 70px;
+  box-shadow: 0 0 5px #d00e0e;
+}
+.icon-Empate{
+  padding: 15px;
+  margin-left: 10px;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 3px solid white;
+  border-radius: 70px;
+  
+}
+.mover-boton{
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 70px;
+}
+.solucion{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.resultado{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.resetear-button, .jugada-auto{
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #7aea1e;
+  border: none;
+  border-radius: 18px;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+.resetear-button:hover{
+  background-color: #81f604;
+}
